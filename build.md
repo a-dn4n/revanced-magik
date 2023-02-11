@@ -1,29 +1,23 @@
 CLI: revanced-cli-2.21.0-all.jar  
-Integrations: app-release-unsigned.apk  
-Patches: revanced-patches-2.159.1.jar  
+Integrations: revanced-integrations-0.95.6.apk  
+Patches: revanced-patches-2.159.6.jar  
 
 YouTube
 ==
-- add `Enable save brightness` toggle (swipe gesture) https://github.com/inotia00/ReVanced_Extended/issues/207
-- add `hide-tooltip-content` patch https://github.com/inotia00/ReVanced_Extended/issues/201
-- add `hide-fullscreen-panels` patch https://github.com/inotia00/ReVanced_Extended/issues/147
-- remove `hide-fullscreen-buttoncontainer` patch (duplicated with `hide-fullscreen-panels` patch)
-- fix: `Hide info cards` setting also removes info cards in video description panels https://github.com/inotia00/ReVanced_Extended/issues/212
-- fix: `Hide shorts player subscriptions button` setting removes the subscribe button in channel info
-- refactor: `Disable pip mode in shorts player` (Experimental Flags) setting now works on Android 12+ devices
-- refactor: `always-autorepeat` patch
+- add `Hide shorts player join button` settings https://github.com/inotia00/ReVanced_Extended/issues/151#issuecomment-1423486747
+- refactor: `Hide info panels` setting now removes information panels in Shorts player https://github.com/inotia00/ReVanced_Extended/issues/151#issuecomment-1423486747
+- refactor: `Disable pip mode in shorts player` (Experimental Flags) setting
+- refactor(youtube/general-ads): move settings to correct preference screens
 - crowdin translation update
-`Arabic`, `Chinese Simplified`, `Chinese Traditional`, `French`, `Greek`, `Indonesian`, `Japanese`, `Korean`, `Russian`, `Spanish`, `Vietnamese`
-
-YouTube Music
-==
-- fix: `hide-get-premium` patch is broken in latest YT Music
+`Arabic`, `French`, `German`, `Greek`, `Italian`, `Japanese`, `Korean`, `Polish`, `Portuguese (Brazilian)`, `Russian`, `Spanish`, `Vietnamese`
 
 ETC
 ==
-- add suport YouTube v18.04.41
-- refactor: word patch descriptions clearly
-- _clean install recommended_
+- add suport YouTube v18.04.43, v18.05.35
+- dropped support for YouTube outside of v18.04.43, v18.05.35
+
+- build: update kotlin dependencies
+- refactor: remove unnecessary `locale-config-fix` patch
 
 ※ Compatible ReVanced Manager: v0.0.54
 ※ If you want to contribute to the translation, refer below
@@ -33,7 +27,7 @@ ETC
 - [other countries](https://crowdin.com/project/revancedextended)
   
 **App Versions:**  
-YouTube: 18.04.41  
+YouTube: 18.05.35  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
 
